@@ -5,17 +5,6 @@ USE ieee.numeric_std.all;
 LIBRARY WORK;
 USE WORK.ALL;
 
---------------------------------------------------------------
---
---  This is a testbench you can use to test the new_balance subblock in Modelsim.
---  The testbench repeatedly applies test vectors and checks the output to
---  make sure they match the expected values.  You can use this without
---  modification (unless you want to add more test vectors, which is not a
---  bad idea).  However, please be sure you understand it before trying to
---  use it in Modelsim.
---
----------------------------------------------------------------
-
 ENTITY new_balance_tb IS
   -- no inputs or outputs
 END new_balance_tb;
